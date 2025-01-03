@@ -13,8 +13,8 @@ This is a simple and interactive Node.js web application built using **Express.j
 
 ### **Features**
 - 🌈 Beautiful background with gradient design.
-- 📝 Interactive greeting messages with dynamic nicknames.
-- 📜 Logs HTTP request methods for monitoring.
+- 🗙️ Interactive greeting messages with dynamic nicknames.
+- 📝 Logs HTTP request methods for monitoring.
 - 🔗 Dynamic URL support for personalized messages.
 
 ---
@@ -39,6 +39,18 @@ This is a simple and interactive Node.js web application built using **Express.j
 5. **Access the App in Your Browser:**
    - Home: [http://localhost:3000](http://localhost:3000)
    - Custom Greeting: [http://localhost:3000/greet?name=John](http://localhost:3000/greet?name=John)
+
+---
+
+### **Dependencies to Install**
+- **Express.js**
+  ```bash
+  npm install express
+  ```
+- **Dev Dependency: Nodemon (for automatic server restart)**
+  ```bash
+  npm install --save-dev nodemon
+  ```
 
 ---
 
